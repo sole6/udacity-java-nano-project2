@@ -12,12 +12,13 @@ import org.springframework.http.HttpStatus;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import static org.assertj.core.api.Assertions.assertThat;
-
+//https://spring.io/guides/gs/testing-web/
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class PricingServiceApplicationTests {
 	@LocalServerPort
 	private int port;
+	
 	@Autowired
 	private TestRestTemplate restTemplate;
 	@Test
