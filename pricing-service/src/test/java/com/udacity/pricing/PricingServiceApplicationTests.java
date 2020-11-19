@@ -18,7 +18,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class PricingServiceApplicationTests {
 	@LocalServerPort
 	private int port;
-	
+
 	@Autowired
 	private TestRestTemplate restTemplate;
 	@Test
